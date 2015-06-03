@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Proyecto final</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/eventos.js"></script>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css">
+
+
+ <script>
+    function mostrar(x){
+        
+        document.getElementById(x).style.display='block';
+    }
+    function ocultar(y){
+         document.getElementById(y).style.display='none';
+    }
+   </script>
+   
+
+</head>
+<body>
+	<header>
+		
+		
+		<img src="img/wersi.jpg" alt=""id="mario">
+		<nav>
+			<ul>
+				<li> 
+
+				<button class="btn btn-primary " onclick="mostrar('contenido');ocultar('contenido2');ocultar('contenido3');ocultar('contenido4');"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio
+				 </button>
+				</li>
+				<li> 
+				<button id="btndatos" class="btn btn-primary"  onclick="mostrar('contenido2');ocultar('contenido');ocultar('contenido3');ocultar('contenido4');"><span class="glyphicon glyphicon-floppy-open" aria-hidden="true"></span> Datos Personalas</button>
+				</li>
+				
+         
+                <li> <button  id="btntrabajos" class="btn btn-primary"onclick="mostrar('contenido3');ocultar('contenido2');ocultar('contenido');ocultar('contenido4');"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> Trabajos </button>
+                </li>
+
+
+				
+				
+			
+			</ul>
+		</nav>
+
+	</header>
+    
+	<section id="principal" style="border:2px solid black" >
+    
+    <article id="contenido"  align="center">
+    <br>
+    Bienvenidos 
+    <br><br>
+    <img width="300" src="img/HTML5_1Color_Black.png">
+    <br><br>
+   </article>
+    
+   
+		<article id="contenido2">
+       <article id="esau1"> 
+			<img src="img/esau.jpg" alt=""id="imghtml3" >
+		</article>
+        
+		<article id="textoesau">
+		<h1>Datos</h1><p>
+		<span class="nom">Nombre: Quevedo Ponce Esau</span> <br>
+		<span class="mun">Municipio:Navolato</span><br>
+		<span class="tel">Telefono:6679967360</span><br>
+		<span class="cor">Correo:esau.qp@gmail.com</span><br>
+		<span class="cal">Calle:CJON Benito Juarez</span><br>
+		<span class="col">Colonia:San Pedro</span><br>
+		<span class="est">Estado:Sinaloa</span><br>
+		<span class="cp">C.p:30686</span>
+		
+        
+		
+		</article>
+        
+        </article>
+        
+        
+        
+		<article id="contenido3">
+		<article id="html1">
+			<img src="img/html1.png" alt=""id="imghtml1" >	
+		</article>
+
+		<article id="texto1">
+			<h1>Primera pagina en html</h1>
+			En esta practica se muestran las diferentes etiquetas y como insertar texto y imagen.
+		</article>
+		<hr>
+		<article id="html2">
+			<img src="img/html2.png" alt=""id="imghtml2" >
+		</article>
+		<article id="texto2">
+			<h1>Segunda pagina en html</h1>
+		En esta practica de laboratorio hisimos ul li listas desordenadas  con lorem ipsup
+		</article>
+		<hr>
+		<article id="html3">
+			<img src="img/html3.png" alt=""id="imghtml3" >
+		</article>
+		<article id="texto3">
+			<h1>Tercera pagina en html</h1>
+			En esta practica iniciamos con formularios intruducimos input text y agregamos botones para asi poder comprender mas html 
+		</article>
+		<hr>
+		<article id="html4">
+			<img src="img/html4.png" alt=""id="imghtml4" >
+		</article>
+		<article id="texto4">
+			<h1>Cuarta pagina en html</h1>
+			Recortamos imagenes de la pagina del tec y las colocamos en html. 
+		</article>
+		<hr>
+		<article id="html6">
+			<img src="img/html6.png" alt=""id="imghtml6" >
+		</article>
+		<article id="texto6">
+			<h1>Quinta pagina en html</h1>
+			Curriculum
+			 
+		</article>
+		<hr>
+		<article id="html5bo1">
+			<img src="img/html5'1.png" alt=""id="imghtml5bo1" >
+		</article>
+		<article id="textobo1">
+			<h1> html5</h1>
+			uso de bootstrap 
+			 
+		</article>
+		<hr>
+		<article id="html5bo2">
+			<img src="img/html5'2.png" alt=""id="imghtml5bo2" >
+		</article>
+		<article id="textobo2">
+			<h1> html5</h1>
+			uso de bootstrap ,audio y video 
+			 
+		</article>
+		<hr>
+		<hr>
+		<article id="css3">
+			<img src="img/css3.png" alt=""id="imgcss3" >
+		</article>
+		<article id="textocss3">
+			<h1> html5</h1>
+			actividades con estilos.
+			 
+		</article>
+		<hr>
+		<article id="css4">
+			<img src="img/css4.jpg" alt=""id="imgcss4" >
+		</article>
+		<article id="textocss4">
+			<h1> html5</h1>
+			Practica numero 1
+			 
+		</article>
+		<hr>
+		<article id="css5">
+			<img src="img/css5.png" alt=""id="imgcss5" >
+		</article>
+		<article id="textocss5">
+			<h1> html5</h1>
+			Practica numero 2
+			 
+		</article>
+		<hr>
+		<article id="css6">
+			<img src="img/css6.png" alt=""id="imgcss6" >
+		</article>
+		<article id="textocss6">
+			<h1> html5</h1>
+			Practica numero tres 
+			 
+		</article>
+		<hr>
+		<article id="js1">
+			<img src="img/js1.png" alt=""id="imgjs1" >
+		</article>
+		<article id="textojs1">
+			<h1> Javascrip</h1>
+			Practica con programacion con java scrip 
+			 
+		</article>
+		<hr>
+		<article id="js2">
+			<img src="img/js2.png" alt=""id="imgjs2" >
+		</article>
+		<article id="textojs2">
+			<h1> Javascript</h1>
+			Practica con programacion con java scrip 
+			 
+		</article>
+		<hr>
+		<article id="js3">
+			<img src="img/js3.png" alt=""id="imgjs3" >
+		</article>
+		<article id="textojs3">
+			<h1> Javascrip</h1>
+			Practica con java scrip calculadora
+			 
+		</article>
+		<hr>
+		<article id="ph1">
+			<img src="img/php1.png" alt=""id="imgph1" >
+		</article>
+		<article id="textoph1">
+			<h1> php</h1>
+			Practica con programacion de eventos ,jquery,usobootstrap.
+			 
+		</article>
+		<hr>
+		<article id="ph2">
+			<img src="img/php2.png" alt=""id="imgph2" >
+		</article>
+		<article id="textoph2">
+			<h1> php</h1>
+			Practica con programacion de eventos ,jquery,usobootstrap.
+			 
+		</article>
+		<hr>
+	
+        
+    </section>
+	<footer id="pie">
+	<section id="secpie">
+				<article id="art2">
+			<img src="img/facebook.png" alt="">
+			
+		</article>
+		<article id="art3">
+			<img src="img/twitter.png" alt="">
+		</article>
+		<article id="art1">
+			<img src="img/mensaje.png" alt="" id="mail">
+			<span class="memo">esau.qp@gmail.com</span>
+			
+		</article >
+
+		<article id="art4">
+		<span class="dere">Derechos Reservados Esau.qp &copy;</span>
+			
+		</article>
+		
+	</section>
+			
+	</footer>
+</body>
